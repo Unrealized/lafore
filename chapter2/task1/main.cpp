@@ -1,7 +1,9 @@
 #include <iostream>
 int             main()
 {
- std::cout<<"hi";
+    float fut=7.481, galon;
+    std::cin>>galon;
+    std::cout<<galon*fut;
   return 0;
           }
 
