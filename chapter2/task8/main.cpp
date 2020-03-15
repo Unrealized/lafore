@@ -1,9 +1,9 @@
+#include <iomanip>
 #include <iostream>
 
-using namespace std;
-
 int main()
+
 {
-    cout << "Hello World!" << endl;
-    return 0;
+  std::cout << "MOSKOV" << std::setw(12) << std::setfill('.') << "8425785";
+  return 0;
 }
