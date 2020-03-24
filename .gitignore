@@ -31,3 +31,6 @@
 *.out
 *.app
 *.user
+build-chapter3-Desktop_Qt_5_14_1_MinGW_32_bit-Debug/.qmake.stash
+build-chapter3-Desktop_Qt_5_14_1_MinGW_32_bit-Debug/Makefile
+build-chapter3-Desktop_Qt_5_14_1_MinGW_32_bit-Debug/task1/Makefile
