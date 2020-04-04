@@ -1,4 +1,6 @@
 TEMPLATE = subdirs
 
 SUBDIRS += \
-    task1
+    task1 \
+    task2 \
+    task3

@@ -5,7 +5,7 @@ int main()
 
 {
   int x, y;
-  std::cout << "enter number";
+  std::cout << "enter number ";
   std::cin >> x;
   for (int j = 1; j <= 200; j++) {
     y = x * j;
