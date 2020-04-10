@@ -24,7 +24,7 @@ int main() {
   std::cout <<c<<std::endl;
   std::cout << "perform another operation? y/n"<<std::endl;
   std::cin >> next;
-
+  //if (next = 'n") return 0;
 
 
 
