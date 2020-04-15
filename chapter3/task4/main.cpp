@@ -2,9 +2,9 @@
 
 #include <iostream>
 int main() {
-  long a;
-  long b;
-  long c;
+  float a;
+  float b;
+  float c;
   char ch;
   char next = 'y';
   while (next == 'y'){
