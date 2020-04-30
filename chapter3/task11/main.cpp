@@ -7,7 +7,7 @@ int main()
     char point, act, retry;
     int pun1,shi1,pen1,pun2,shi2,pen2,pun3,shi3,pen3,multy,t_pen1,t_pen2,t_pen3;
     do{
-    cout <<"What operation do you need?  enter one of the options -, +, * ";
+    cout <<"Choise operation. -||+||* "<<endl;
     cin >> act;
     if (act == '+' || act == '-'){
     cout << "enter  first amount" << endl;
@@ -21,10 +21,10 @@ int main()
     cin >> multy;
     }
     switch (act) {
-        case '+':
-        t_pen1= pen1+(shi1*12)+(pun1*240) ;
-        t_pen2= pen2+(shi2*12)+(pun2*240) ;
-        t_pen3= t_pen1+t_pen2;
+    case '+':
+    t_pen1= pen1+(shi1*12)+(pun1*240) ;
+    t_pen2= pen2+(shi2*12)+(pun2*240) ;
+    t_pen3= t_pen1+t_pen2;
             pun3=t_pen3/240;
             shi3=t_pen3%240/12;
             pen3=t_pen3%240%12;
