@@ -21,7 +21,7 @@ int main() {
       case '/':c=a/b;break;
       case '*':c=a*b;break;
   }
-  std::cout <<c<<std::endl;
+  std::cout <<"result = "<<c<<std::endl;
   std::cout << "perform another operation? y/n"<<std::endl;
   std::cin >> next;
   //if (next = 'n") return 0;
