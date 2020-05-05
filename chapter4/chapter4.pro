@@ -6,4 +6,5 @@ SUBDIRS += \
     task3 \
     task4 \
     task5 \
+    task6 \
     test
