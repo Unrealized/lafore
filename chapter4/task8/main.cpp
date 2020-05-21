@@ -1,6 +1,4 @@
 #include <iostream>
-
-
 int main() {
 
   char fr, ret;
@@ -31,5 +29,3 @@ std::cin >> ret;
 }while (ret == 'y'|| ret =='Y');
 return 0;
 }
-//  std::cout << "if you want retry, input y ";
-//  std::cin >> ret;

@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    char point, ch, retry,act;
+    char  ch, retry,act;
     double a,b,c,d,x;
     do{
 

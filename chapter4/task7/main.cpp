@@ -1,24 +1,21 @@
 #include <iostream>
 #include <iomanip>
-char ch,  retry;
 using namespace std;
 
 int main()
 {
-
+char ch,  retry;
+const int amountofWorker=3;
+string nameProfe[amountofWorker] ={};
 enum etype{laborer,secretary,manager,accountant,executive,researcher};
 struct date{int month,day,year;};
 struct employee{int number;float money;date time; etype prof;};
-const int amountofWorker=3;
 employee worker[amountofWorker] = {};
-string nameProfe[amountofWorker] ={};
 
 for (int i=0; i<amountofWorker; i++)
 {
 cout << "enter employee number ";
 cin >> worker[i].number;
-
-
 do{
 cout << "Enter the first letter of one of the listed professions:" <<endl<< "laborer,secretary,manager,accountant,executive,researcher  ";
     cin>>ch;
