@@ -30,7 +30,7 @@ len = v1.lenght.feet+v1.lenght.inches/12;
 wid = v1.width.feet+v1.width.inches/12;
 hei = v1.heigth.feet+v1.heigth.inches/12;
 vol = len*wid*hei;
-ch = 39;
-    cout <<"volume = "<<vol<<ch;
+
+    cout <<"volume = "<<vol<<'\'';
     return 0;
 }
